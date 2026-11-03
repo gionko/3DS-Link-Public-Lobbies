@@ -1,0 +1,2 @@
+# Lobby servers that answer GET /lobby (Azahar's web API), one URL per line. tools/build_list.py reads them.
+http://88.198.47.46:5000/lobby

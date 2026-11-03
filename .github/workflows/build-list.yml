@@ -1,0 +1,38 @@
+name: build-list
+
+# Twice a day (and after a change to the files we edit by hand): read the lobbies of sources.txt, join them with
+# manual.txt and exclude.txt, and commit public-lobbies.txt when it changed. tools/build_list.py says why it wrote or not.
+on:
+  schedule:
+    - cron: '17 5,17 * * *'
+  push:
+    branches: [main]
+    paths: [manual.txt, exclude.txt, sources.txt, titles.txt, tools/build_list.py]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-list
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+      - run: python3 tools/test_build_list.py
+      - run: python3 tools/build_list.py
+      - name: Commit the list when it changed
+        run: |
+          if git diff --quiet -- public-lobbies.txt; then
+            echo "public-lobbies.txt did not change"
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add public-lobbies.txt
+          git commit -m "Public lobbies: list of $(date -u +%F)"
+          git push

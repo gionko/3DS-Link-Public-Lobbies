@@ -1,0 +1,14 @@
+# Versions of one game that have different product codes but play together: one group per line, families of
+# three characters (the first three of the product code, CTR-P-EKJA -> EKJ). The first family of a line is the
+# one the others become in titles.txt. After a change, build titles.txt again (README).
+EKJ EK2     # Pokemon X, Y
+BND BNE     # Pokemon Sun, Moon
+A2A A2B     # Pokemon Ultra Sun, Ultra Moon
+ECR ECL     # Pokemon Omega Ruby, Alpha Sapphire
+BFX BFY     # Fire Emblem Fates: Birthright, Conquest
+BYG BYH BYS # Yo-kai Watch 2: Bony Spirits, Fleshy Souls, Psychic Specters
+BYA BYB     # Yo-kai Watch Blasters: Red Cat Corps, White Dog Squad
+AXB AXS AXG # Inazuma Eleven 3: Bomb Blast, Lightning Bolt, Team Ogre Attacks
+AE4 AED     # Inazuma Eleven GO: Light, Shadow
+ANP ARA     # Inazuma Eleven GO Chrono Stone: Wildfire, Thunderflash
+BGV BGS     # Inazuma Eleven GO Galaxy: Big Bang, Supernova

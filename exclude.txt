@@ -1,0 +1,1 @@
+# Rooms left out of the list, one address:port per line (for example when the owner asks to be removed).

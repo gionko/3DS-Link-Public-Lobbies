@@ -1,5 +1,82 @@
-60.50.37.14:64000:HuntingTavrn
+#updated 2026-11-03
+#titles 2026-11-03
+#lobby-rooms 81
+# address:port:name[:secret] - made by tools/build_list.py, do not edit by hand: change manual.txt or exclude.txt
+101.132.153.196:2002:MH3G MH3U
+101.132.153.196:2008:MH4G MH4U
+130.61.159.87:24872:[GER] - Animal Crossing New Leaf
+14.19.166.57:24872:CN|MHXX|出云吖测试服
+174.182.110.28:24872:[USA-EAST] Neko's Hunter Party
+174.182.110.28:24873:[USA-EAST] Neko's Hunter Hub
+174.182.110.28:24874:[USA-EAST] Neko's Hunter Fleet
+174.182.110.28:24877:[USA-EAST] Neko's Hunter Tribe
+174.182.110.28:24880:[USA-EAST] Neko's Hunter Collective
+174.182.110.28:24881:[USA-EAST] Neko's Hunter Dynasty
+174.182.110.28:24883:[USA-EAST] Neko's Hunter Alliance
+174.182.110.28:24884:[USA-EAST] Neko's Hunter Legionnaire
+174.182.110.28:24885:[USA-EAST] Neko's Hunter Battalion
+174.97.93.116:24872:[US-East] Mitzoken's Pokémon GTS
+174.97.93.116:24873:[US-East] Mitzoken's Gathering Hub
+174.97.93.116:24874:[US-East] Mitzoken's ACNL Village
+174.97.93.116:24875:[US-East] Mitzoken's Other Games Room
+181.222.45.231:6001:[BRA] #1 Monster Hunter Brasil
+181.222.45.231:6002:[BRA] #2 Monster Hunter Brasil
+181.222.45.231:6003:[BRA] #3 Monster Hunter Brasil
+181.222.45.231:6004:[BRA] #4 Monster Hunter Brasil
+181.222.45.231:6005:[BRA] #5 Monster Hunter Brasil
+181.222.45.231:6006:[BRA] #6 Monster Hunter Brasil
+184.56.91.184:24873:All Purpose Pokemon Room | Yuzu-Based Pokemon Room
 188.147.137.66:5000:Illit Iodrm
+188.147.137.66:5004:SenileSergos
+213.199.47.144:5005:Federacion Jura Tempest Discord
+213.199.47.144:24874:[LAT] ✦ ECOS DE ASTERA ✦
+38.83.25.169:5000:NC Fiber World Tour
+45.76.162.34:6001:[SG][PUB] Foregathering of Admirable Dundormans #1
+45.76.162.34:6002:[SG][PUB] Foregathering of Admirable Dundormans #2
+45.76.162.34:6003:[SG][PUB] Foregathering of Admirable Dundormans #3
+45.76.162.34:6004:[SG][PUB] Foregathering of Admirable Dundormans #4
+45.76.162.34:6005:[SG][PUB] Foregathering of Admirable Dundormans #5
+45.76.162.34:6006:[SG][PUB] Foregathering of Admirable Dundormans #6
+45.76.162.34:6007:[SG][PUB] Foregathering of Admirable Dundormans #7
+45.77.1.47:6001:[US][PUB] Foregathering of Admirable Dundormans #1
+45.77.1.47:6002:[US][PUB] Foregathering of Admirable Dundormans #2
+45.77.1.47:6003:[US][PUB] Foregathering of Admirable Dundormans #3
+45.77.1.47:6004:[US][PUB] Foregathering of Admirable Dundormans #4
+45.77.62.171:6001:[FR][PUB] Foregathering of Admirable Dundormans #1
+45.77.62.171:6002:[FR][PUB] Foregathering of Admirable Dundormans #2
+45.77.62.171:6003:[FR][PUB] Foregathering of Admirable Dundormans #3
+45.77.62.171:6004:[FR][PUB] Foregathering of Admirable Dundormans #4
+60.50.37.14:64000:HuntingTavrn
+74.12.210.154:5000:[NG+] MH3U --- Low Rank Lobby 1
+74.12.210.154:5002:[NG+] MH3U --- High Rank Lobby 1 • Viens discuter •
+74.12.210.154:5003:[NG+] MH3U --- High Rank Lobby 2 →
+74.12.210.154:5004:[NG+] MH3U --- G Rank Lobby 1 ⸜(｡˃ ᵕ ˂ )⸝♡ par Frost0ne_
+74.12.210.154:5005:[NG+] MH3U --- G Rank Lobby 2
+74.12.210.154:5010:[NG+] MH4U --- Low Rank Lobby 1
+74.12.210.154:5012:[NG+] MH4U --- High Rank Lobby 1 • Viens discuter •
+74.12.210.154:5013:[NG+] MH4U --- High Rank Lobby 2 →
+74.12.210.154:5014:[NG+] MH4U --- G Rank Lobby 1 ≽(•⩊ •マ≼ par Frost0ne_
+74.12.210.154:5015:[NG+] MH4U --- G Rank Lobby 2
+74.12.210.154:5020:[NG+] MHXX --- Low Rank Lobby 1
+74.12.210.154:5022:[NG+] MHXX --- High Rank Lobby 1 • Viens discuter •
+74.12.210.154:5023:[NG+] MHXX --- High Rank Lobby 2 →
+74.12.210.154:5024:[NG+] MHXX --- G Rank Lobby 1 ฅ^>⩊<^ ฅ par Frost0ne_
+74.12.210.154:5025:[NG+] MHXX --- G Rank Lobby 2
+74.12.210.154:5030:[NG+] Animal Crossing - New Leaf --- Room 1 (๑ᵔ⤙ᵔ๑) par Frost0ne
+74.12.210.154:5031:[NG+] Animal Crossing - New Leaf --- Room 2 →
+78.193.252.35:24873:[EU] Kelgors Public Hall
+78.47.239.197:5005:[EU] Schemens Public Gathering Hall 1
+78.47.239.197:5006:[EU] Schemens Public Gathering Hall 2
+78.47.239.197:5007:[EU] Schemens Public Gathering Hall 3
+78.47.239.197:5008:[EU] Schemens Public Gathering Hall 4
+78.47.239.197:5009:[EU] Schemens Public Gathering Hall Low Rank 1
+78.47.239.197:5010:[EU] Schemens Public Gathering Hall Low Rank 2
+78.47.239.197:5011:[EU] Schemens Public Gathering Hall High Rank 1
+78.47.239.197:5012:[EU] Schemens Public Gathering Hall High Rank 2
+78.47.239.197:5013:[EU] Schemens Public Gathering Hall G Rank 1
+78.47.239.197:5014:[EU] Schemens Public Gathering Hall G Rank 2
+79.72.44.210:51230:VPS PKMN XY
+79.72.44.210:51231:VPS PKMN US
 88.198.47.46:5001:Kex Pub 1
 88.198.47.46:5002:Kex Pub 2
 88.198.47.46:5003:Kex Pub 3
@@ -8,8 +85,3 @@
 88.198.47.46:5006:Kex Pub 6
 88.198.47.46:5007:Kex Pub 7
 88.198.47.46:5008:Kex Pub 8
-101.132.153.196:2002:MH3G MH3U
-101.132.153.196:2008:MH4G MH4U
-188.147.137.66:5004:SenileSergos
-79.72.44.210:51231:VPS PKMN US
-79.72.44.210:51230:VPS PKMN XY
