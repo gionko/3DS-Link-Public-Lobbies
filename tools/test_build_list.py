@@ -52,6 +52,14 @@ class Lobby(unittest.TestCase):
                                        {'address': '1.2.3.7', 'port': 'x'}, {'address': '1.2.3.8', 'hasPassword': None}))
         self.assertEqual(rooms, [('1.2.3.4', 24872, 'Room')])
 
+    def test_a_name_that_cleans_to_nothing(self):
+        rooms = b.rooms_of_lobby(lobby({'address': '1.2.3.4', 'name': 'https://discord.gg/x'}, {'address': '1.2.3.5', 'name': '|-|'}))
+        self.assertEqual([r[2] for r in rooms], ['Room 24872', 'Room 24872'])
+
+    def test_a_secret_too_long(self):
+        with self.assertRaises(ValueError):
+            b.parse_line('1.2.3.4:5000:Room:' + 'x' * 257, 'x')
+
 
 class Build(unittest.TestCase):
     def test_manual_wins_and_exclude_removes(self):

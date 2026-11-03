@@ -25,6 +25,7 @@ import urllib.request
 MAX_BYTES = 64 * 1024          # 3DS Link refuses a bigger list
 MAX_ANSWER_BYTES = 1024 * 1024  # a /lobby answer this big is not one
 MAX_NAME = 64
+MAX_SECRET_BYTES = 256  # 3DS Link reads a password of at most 64 letters of UTF-8
 MAX_ROOMS_PER_HOST = 20
 NETWORK_VERSION = 4
 STALE_DAYS = 30
@@ -68,7 +69,10 @@ def parse_line(line, where):
         raise ValueError(f'{where}: "{line}" has a bad address or port')
     if name != clean_name(name):
         raise ValueError(f'{where}: the name "{name}" has characters the list does not allow, or is longer than {MAX_NAME}')
-    return host, int(port), name, parts[3] if len(parts) == 4 else ''
+    secret = parts[3] if len(parts) == 4 else ''
+    if len(secret.encode('utf-8')) > MAX_SECRET_BYTES:
+        raise ValueError(f'{where}: the secret is longer than {MAX_SECRET_BYTES} bytes')
+    return host, int(port), name, secret
 
 
 def read_lines(path):
@@ -90,7 +94,8 @@ def rooms_of_lobby(answer):
         host, port = str(room.get('address', '')).strip(), room.get('port')
         if not valid_host(host) or not isinstance(port, int) or not 1 <= port <= 65535:
             continue
-        rooms.append((host, port, clean_name(str(room.get('name', '')))))
+        # (a name that had nothing but a link or symbols: the room is still listed, by its port)
+        rooms.append((host, port, clean_name(str(room.get('name', ''))) or f'Room {port}'))
     return rooms
 
 
