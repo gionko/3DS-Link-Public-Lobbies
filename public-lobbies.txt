@@ -1,6 +1,6 @@
-#updated 2026-11-03
+#updated 2026-11-04
 #titles 2026-11-03
-#lobby-rooms 82
+#lobby-rooms 81
 # address:port:name[:secret] - made by tools/build_list.py, do not edit by hand: change manual.txt or exclude.txt
 101.132.153.196:2002:MH3G MH3U
 101.132.153.196:2008:MH4G MH4U
@@ -85,4 +85,3 @@
 88.198.47.46:5006:Kex Pub 6
 88.198.47.46:5007:Kex Pub 7
 88.198.47.46:5008:Kex Pub 8
-92.142.107.71:24872:ahah
