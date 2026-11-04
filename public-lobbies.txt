@@ -1,6 +1,6 @@
 #updated 2026-11-04
 #titles 2026-11-03
-#lobby-rooms 81
+#lobby-rooms 85
 # address:port:name[:secret] - made by tools/build_list.py, do not edit by hand: change manual.txt or exclude.txt
 101.132.153.196:2002:MH3G MH3U
 101.132.153.196:2008:MH4G MH4U
@@ -30,6 +30,10 @@
 188.147.137.66:5004:SenileSergos
 213.199.47.144:5005:Federacion Jura Tempest Discord
 213.199.47.144:24874:[LAT] ✦ ECOS DE ASTERA ✦
+213.64.191.6:24872:[EU] SWE MHGen
+213.64.191.6:24873:[EU] SWE Mario Kart 7
+213.64.191.6:24874:[EU] SWE MH4u
+213.64.191.6:24875:[EU] SWE TriForce
 38.83.25.169:5000:NC Fiber World Tour
 45.76.162.34:6001:[SG][PUB] Foregathering of Admirable Dundormans #1
 45.76.162.34:6002:[SG][PUB] Foregathering of Admirable Dundormans #2
