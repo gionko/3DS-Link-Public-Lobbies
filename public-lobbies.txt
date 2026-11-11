@@ -1,6 +1,6 @@
 #updated 2026-11-11
 #titles 2026-11-03
-#lobby-rooms 83
+#lobby-rooms 84
 # address:port:name[:secret] - made by tools/build_list.py, do not edit by hand: change manual.txt or exclude.txt
 101.132.153.196:2002:MH3G MH3U
 101.132.153.196:2008:MH4G MH4U
@@ -25,6 +25,7 @@
 181.222.45.231:6004:[BRA] #4 Monster Hunter Brasil
 181.222.45.231:6005:[BRA] #5 Monster Hunter Brasil
 181.222.45.231:6006:[BRA] #6 Monster Hunter Brasil
+184.56.91.184:24873:All Purpose Pokemon Room | Yuzu-Based Pokemon Room
 188.147.137.66:5000:Illit Iodrm
 188.147.137.66:5004:SenileSergos
 213.199.47.144:5005:Federacion Jura Tempest Discord
