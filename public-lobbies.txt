@@ -1,12 +1,11 @@
 #updated 2026-11-12
 #titles 2026-11-03
-#lobby-rooms 85
+#lobby-rooms 84
 # address:port:name[:secret] - made by tools/build_list.py, do not edit by hand: change manual.txt or exclude.txt
 101.132.153.196:2002:MH3G MH3U
 101.132.153.196:2008:MH4G MH4U
 130.61.159.87:24872:[GER] - Animal Crossing New Leaf
-14.19.166.57:24872:CN|MHXX|出云吖测试服
-153.170.116.7:24872:0_inkai_sensou
+14.19.155.34:24872:CN|MHXX|出云吖测试服
 174.182.110.28:24872:[USA-EAST] Neko's Hunter Party
 174.182.110.28:24873:[USA-EAST] Neko's Hunter Hub
 174.182.110.28:24874:[USA-EAST] Neko's Hunter Fleet
