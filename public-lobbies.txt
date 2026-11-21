@@ -1,6 +1,6 @@
-#updated 2026-11-20
+#updated 2026-11-21
 #titles 2026-11-03
-#lobby-rooms 83
+#lobby-rooms 85
 # address:port:name[:secret] - made by tools/build_list.py, do not edit by hand: change manual.txt or exclude.txt
 101.132.153.196:2002:MH3G MH3U
 101.132.153.196:2008:MH4G MH4U
@@ -67,6 +67,8 @@
 74.12.210.154:5030:[NG+] Animal Crossing - New Leaf --- Room 1 (๑ᵔ⤙ᵔ๑) par Frost0ne
 74.12.210.154:5031:[NG+] Animal Crossing - New Leaf --- Room 2 →
 78.193.252.35:24873:[EU] Kelgors Public Hall
+78.193.252.35:24874:[EU] Kelgors Pokémon Center
+78.193.252.35:24875:[EU] Kelgors Festival Plaza
 78.47.239.197:5005:[EU] Schemens Public Gathering Hall 1
 78.47.239.197:5006:[EU] Schemens Public Gathering Hall 2
 78.47.239.197:5007:[EU] Schemens Public Gathering Hall 3
