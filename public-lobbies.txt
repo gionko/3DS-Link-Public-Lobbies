@@ -1,11 +1,12 @@
-#updated 2026-11-22
+#updated 2026-11-23
 #titles 2026-11-03
-#lobby-rooms 79
+#lobby-rooms 86
 # address:port:name[:secret] - made by tools/build_list.py, do not edit by hand: change manual.txt or exclude.txt
 101.132.153.196:2002:MH3G MH3U
 101.132.153.196:2008:MH4G MH4U
 130.61.159.87:24872:[GER] - Animal Crossing New Leaf
 14.19.155.18:24872:CN|MHXX|出云吖测试服
+148.253.212.158:24872:txbx.eu
 174.182.110.28:24872:[USA-EAST] Neko's Hunter Party
 174.182.110.28:24873:[USA-EAST] Neko's Hunter Hub
 174.182.110.28:24874:[USA-EAST] Neko's Hunter Fleet
@@ -19,6 +20,12 @@
 174.97.93.116:24873:[US-East] Mitzoken's Gathering Hub
 174.97.93.116:24874:[US-East] Mitzoken's ACNL Village
 174.97.93.116:24875:[US-East] Mitzoken's Other Games Room
+181.222.45.231:6001:[BRA] #1 Monster Hunter Brasil
+181.222.45.231:6002:[BRA] #2 Monster Hunter Brasil
+181.222.45.231:6003:[BRA] #3 Monster Hunter Brasil
+181.222.45.231:6004:[BRA] #4 Monster Hunter Brasil
+181.222.45.231:6005:[BRA] #5 Monster Hunter Brasil
+181.222.45.231:6006:[BRA] #6 Monster Hunter Brasil
 184.56.91.184:24873:All Purpose Pokemon Room | Citra-Based Pokemon Room
 188.147.137.66:5000:Illit Iodrm
 188.147.137.66:5004:SenileSergos
