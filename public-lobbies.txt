@@ -1,6 +1,6 @@
-#updated 2026-11-23
+#updated 2026-11-24
 #titles 2026-11-03
-#lobby-rooms 86
+#lobby-rooms 87
 # address:port:name[:secret] - made by tools/build_list.py, do not edit by hand: change manual.txt or exclude.txt
 101.132.153.196:2002:MH3G MH3U
 101.132.153.196:2008:MH4G MH4U
@@ -51,6 +51,7 @@
 45.77.62.171:6003:[FR][PUB] Foregathering of Admirable Dundormans #3
 45.77.62.171:6004:[FR][PUB] Foregathering of Admirable Dundormans #4
 60.50.37.14:64000:HuntingTavrn
+68.202.54.26:24872:AMerc
 74.12.210.154:5000:[NG+] MH3U --- Low Rank Lobby 1
 74.12.210.154:5002:[NG+] MH3U --- High Rank Lobby 1 • Viens discuter •
 74.12.210.154:5003:[NG+] MH3U --- High Rank Lobby 2 →
