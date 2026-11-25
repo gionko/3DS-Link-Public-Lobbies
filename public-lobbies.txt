@@ -1,6 +1,6 @@
-#updated 2026-11-24
+#updated 2026-11-25
 #titles 2026-11-03
-#lobby-rooms 86
+#lobby-rooms 87
 # address:port:name[:secret] - made by tools/build_list.py, do not edit by hand: change manual.txt or exclude.txt
 101.132.153.196:2002:MH3G MH3U
 101.132.153.196:2008:MH4G MH4U
@@ -35,6 +35,7 @@
 213.64.191.6:24873:[EU] SWE Mario Kart 7
 213.64.191.6:24874:[EU] SWE MH4u
 213.64.191.6:24875:[EU] SWE TriForce
+42.188.136.12:64000:Hunting Tavern
 45.76.162.34:6001:[SG][PUB] Foregathering of Admirable Dundormans #1
 45.76.162.34:6002:[SG][PUB] Foregathering of Admirable Dundormans #2
 45.76.162.34:6003:[SG][PUB] Foregathering of Admirable Dundormans #3
